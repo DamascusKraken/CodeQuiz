@@ -13,26 +13,40 @@
                 View high scores            
             </a>
             <nav class = "timestyle">
-                <a class = "timer">   timer placeholder         </a>
+                <a class = "timer"></a>
             </nav>
         </nav>
     </header>
 
     <main>
        
-    <h1 class = "webtitle" style = "text-align: center; padding: 70px 0 0 0;"></h1>
+    <h1 class = "webtitle" ></h1>
     <pre class = "directions" ></pre>
     <div class = "start-container">
         <button type = "button"  autofocus  class = "start" ></button>
     </div>
     <div class = "quiz-container">
         <h1 class = "question"></h1>
-        <section>
-            <button class = "answer1"></button>
-            <button class = "answer2"></button>
-            <button class = "answer3"></button>
-            <button class = "answer4"></button>
+        <section class = "answers">
+            <button id = "answer1" type = "submit" ></button>
+            <br>
+            <button id = "answer2"></button>
+            <br>
+            <button id = "answer3"></button>
+            <br>
+            <button id = "answer4" type = submit></button>
+            <br>
         </section>
+        <p class="verification"></p>
+    </div>
+    <div class = "end-game">
+        <label class = "final-score"></label>
+        <br>
+        <br>
+        <label class = "initials" for = "initial-input"></label>
+        <input type = "text" id = "initial-input" name = "initial-input">
+        <input type = "submit" value = "Submit" class = "submit" autofocus> 
+       
     </div>
     
 </main>

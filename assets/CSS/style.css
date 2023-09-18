@@ -19,7 +19,10 @@
 .timestyle {
     float: right;
 }
-
+.webtitle {
+    text-align: center; 
+    padding: 70px 0 0 0;
+}
 .directions {
     text-align: center;
     margin: 0 30px ;
@@ -48,7 +51,51 @@
     font-size: 16px;  
 }
 
+.quiz-container {
+    padding: 0 20%;
+    /* border-style: solid; */
+ 
+}
 .question {
-    text-align: center;
+    text-align: left;
     padding: 70px 0 0 0;
+}
+
+.answers {
+    border-bottom: solid gray;
+   padding-bottom: 10px;
+    
+}
+button {
+    background-color: #351C75;
+    display: block;
+    text-align: left;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 12px;
+   
+}
+
+section button {
+    width: 30%;
+}
+.end-game {
+    display: block;
+    padding: 0 20%;
+    font-size: 22px;
+}
+.submit {
+    background-color: #351C75;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 12px;
+    
+}
+
+.initials{
+    background-color: white;
+    color: black;
+    font-size: 22px;
 }
