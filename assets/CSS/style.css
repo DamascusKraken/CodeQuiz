@@ -1,0 +1,54 @@
+
+
+.topnav a {
+    float: left;
+    color: rgba(4, 1, 17, 0.781);
+    text-align: center;
+    padding: 14px 16 px;
+
+}
+
+.topnav a:hover {
+    color: turquoise;
+}
+
+.topnav a.active {
+    color: forestgreen;
+}
+
+.timestyle {
+    float: right;
+}
+
+.directions {
+    text-align: center;
+    margin: 0 30px ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start-container {
+    margin: 0;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.start{
+    background-color: #351C75; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+}
+
+.question {
+    text-align: center;
+    padding: 70px 0 0 0;
+}
